@@ -1,0 +1,26 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{int age;
+void checkage()
+{
+	if (age >20){System.out.println("OK TO BOARD");}
+	else if (age>25){System.out.println("GOOD TO BOARD");}
+	else {System.out.println("NOT TO Board");}
+}
+public static void main (String[]args)
+{
+	Temp hh = new Temp();
+	Scanner ss = new Scanner(System.in);
+	System.out.println("TELL ME YOUR AGE");
+	hh.age = ss.nextInt();//VARI AGE INITIALIZED BY USERINTPUT USING SCANNER 
+	hh.checkage();
+	
+	
+	
+}
+
+
+}
+class Per{}

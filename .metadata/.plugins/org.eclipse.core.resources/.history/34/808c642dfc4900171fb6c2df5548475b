@@ -1,0 +1,16 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{
+	public static void main (String[] args){
+		int[] a ={ 25,20,23,45};
+		try {System.out.println(a[2]+"  "+a[3]);}
+		catch(Exception e){System.out.println("Catch");}
+		
+		
+	}
+
+
+}
+class Per{}

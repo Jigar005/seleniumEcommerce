@@ -1,0 +1,29 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{
+	void autho1()
+	{
+		System.out.println(10/0);
+	}
+	void precord()
+	{
+		autho1();
+	}
+	void eseva ()
+	{
+		precord();
+	}
+	public static void main (String[] args){
+	
+		Temp m = new Temp();
+		m.eseva();
+		
+		
+		
+	}
+
+
+}
+class Per{}

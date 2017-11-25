@@ -1,0 +1,35 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{
+	void autho1() throws Exception 
+	{
+		if (age>20){System.out.println("OK TO BOARD");}
+		else{System.out.println("OK TO GO HOME");}
+		
+	}
+	void precord()throws Exception 
+	{
+		autho1();
+	}
+	void eseva ()throws Exception
+	{
+		precord();
+	}
+	public static void main (String[] args) throws Exception
+	{
+	
+		Scanner in = new Scanner(System.in);
+		System.out.println("TELL ME YOUR AGE");
+		int age = in.nextInt();
+		
+		System.out.println("Om Namah Shivay");
+		
+		
+		
+	}
+
+
+}
+class Per{}

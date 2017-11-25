@@ -1,0 +1,10 @@
+package com.corejava.statment;
+
+public class Split {
+	public static void main (String [] args)
+	{
+		String sp = "ABCDEFGHI";
+		
+	System.out.println(sp.split(02);
+	}
+}

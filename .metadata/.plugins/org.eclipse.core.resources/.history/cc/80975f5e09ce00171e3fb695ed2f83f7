@@ -1,0 +1,7 @@
+package com.apex.Inbox;
+
+import com.apex.test.core.ApexBasePage;
+
+public class InboxPage extends ApexBasePage implements InboxConstants{
+
+}

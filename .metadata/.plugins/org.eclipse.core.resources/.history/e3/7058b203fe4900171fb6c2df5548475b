@@ -1,0 +1,20 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{
+	public static void main (String[] args){
+		String r = "Ratan";
+		
+		
+		
+		
+		try {System.out.println(r.charAt(2));}
+		catch(Exception e){e.printStackTrace();}
+		
+		
+	}
+
+
+}
+class Per{}

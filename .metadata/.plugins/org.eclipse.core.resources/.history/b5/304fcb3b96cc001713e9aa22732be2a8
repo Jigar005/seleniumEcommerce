@@ -1,0 +1,25 @@
+package core;
+
+import java.util.TreeMap;
+
+class EmpDetailsKey implements Comparable{
+	int empid; String empname;
+	public EmpDetailsKey(int empid, String empname) {
+	this.empid=empid;
+	this.empname=empname;
+	}
+	public int compareTo(EmpDetailsKey e)
+	{
+		if (empid == e.empid)
+		{return 0;}
+		else if (empid>e.empid){return +1;}
+		else {return -1:}
+			
+	}
+}
+public class TreeMapExample {
+	
+public static void main(String[] args) {
+	TreeMap<EmpDetaiisKey,EmpValue> treemap = new TreeMap<>(e);
+}
+}

@@ -1,0 +1,31 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{
+	void autho1() throws Exception 
+	{
+		try{System.out.println(10/0);}
+		catch(Exception e){}
+	}
+	void precord()throws Exception 
+	{
+		autho1();
+	}
+	void eseva ()throws Exception
+	{
+		precord();
+	}
+	public static void main (String[] args) throws Exception
+	{
+	
+		Temp m = new Temp();
+		m.eseva();
+		
+		
+		
+	}
+
+
+}
+class Per{}

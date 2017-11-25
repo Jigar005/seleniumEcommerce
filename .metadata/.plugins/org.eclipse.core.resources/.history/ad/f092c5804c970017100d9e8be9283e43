@@ -1,0 +1,37 @@
+package com.corejava.statment;
+/*Author Jigar Mehta 
+ * Example of single ton class. all objects are pointing to same memory location
+ * 
+ */
+
+public class Temp {
+
+public static void main (String [] args)
+{
+	SingleTon s1 = SingleTon.getObject();
+	SingleTon s2 = SingleTon.getObject();
+	SingleTon s3 = SingleTon.getObject();
+	SingleTon s4 = SingleTon.getObject();
+	
+	System.out.println(s1);
+	System.out.println(s2);
+	System.out.println(s3);
+	System.out.println(s4);
+}
+
+
+
+}
+
+final class SingleTon{
+	
+	private SingleTon(){}				// private constructor for restriction of object creation outside of class
+	private static SingleTon a;			//private class type variable to store object and static so can access to static method
+	
+	public static SingleTon getObject()	//method to create one object, preventing 2nd object creation,
+	{	if (a == null)					// such attempt redirect to previous object.
+		{return a = new SingleTon();}
+		return a;
+	}
+}
+

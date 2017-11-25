@@ -1,0 +1,10 @@
+package com.corejava.statment;
+
+public class Replace {
+
+	public static void main (String [] args)
+	{
+		String url = "www. google . com";
+		url.replace(" ", "%20");
+	}
+}

@@ -1,0 +1,14 @@
+package com.corejava.statment;
+
+public class Stt {
+public static void main (String [] args){
+	String abcd = "ABCD EFGH IJKL MNOP QRST UVWX YZ";
+	String dc = "AAA";
+	String de = "AAA";
+	
+	System.out.println(abcd.length());
+	System.out.println(abcd.toUpperCase());
+	System.out.println(abcd.toLowerCase());
+	System.out.println(abcd.equals(dc));
+}
+}

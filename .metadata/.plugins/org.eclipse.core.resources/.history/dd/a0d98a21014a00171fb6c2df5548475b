@@ -1,0 +1,34 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{
+	void autho1() throws Exception 
+	{
+		int age;
+		Scanner b = new Scanner(System.in);
+		age = b.nextInt();
+		
+	}
+	void precord()throws Exception 
+	{
+		autho1();
+	}
+	void eseva ()throws Exception
+	{
+		precord();
+	}
+	public static void main (String[] args) throws Exception
+	{
+	
+		Temp m = new Temp();
+		m.eseva();
+		System.out.println("Om Namah Shivay");
+		
+		
+		
+	}
+
+
+}
+class Per{}

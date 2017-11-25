@@ -1,0 +1,17 @@
+package core;
+
+public class RefComp {
+
+	RefComp(String str)
+	{
+		
+	}
+	public static void main (String [] args)
+	{
+		RefComp mp1 = new RefComp("jigar");
+		RefComp mp2 = new RefComp("jigar");
+		System.out.println(mp1.equals(mp2));
+	
+		
+	}
+}

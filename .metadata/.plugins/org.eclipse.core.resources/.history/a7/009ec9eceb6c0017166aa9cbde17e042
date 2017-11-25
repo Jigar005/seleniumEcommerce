@@ -1,0 +1,39 @@
+package core;
+
+public class RefComp {
+
+	RefComp(String str)
+	{
+		
+	}
+	public static void main (String [] args)
+	{
+		//Inhere content is same but equals method does ref comparison, so result is false
+		//Object class equals method used here
+		RefComp mp1 = new RefComp("jigar");
+		RefComp mp2 = new RefComp("jigar");
+		System.out.println(mp1.equals(mp2));
+		
+		//Inhere String class over riding equals method used, so it will done content comparison, so its true
+		String s1 = "Chandni";
+		String s2 = "Chandni";
+		System.out.println(s1.equals(s2));
+		
+		//Inhere StringBuffer class does not override equals method, so it will use object class equals method
+		StringBuffer er = new StringBuffer("yashvi");
+		StringBuffer er1 = new StringBuffer ("yahsvi");
+		System.out.println(er.equals(er1));
+		
+
+		//Inhere String class over riding equals method used, so it will done content comparison, so its true
+		String s3 = "Chandni";
+		String s4 = "Chandni";
+		System.out.println(s3.equals(s4));
+		
+		
+		
+		
+	
+		
+	}
+}

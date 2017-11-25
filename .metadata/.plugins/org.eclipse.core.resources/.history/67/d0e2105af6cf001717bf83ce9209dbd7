@@ -1,0 +1,9 @@
+package com.apex.test;
+
+import org.testng.annotations.Test;
+
+public class ExplicitWait {
+  @Test
+  public void f() {
+  }
+}

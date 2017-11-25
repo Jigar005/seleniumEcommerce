@@ -1,0 +1,24 @@
+package core;
+
+import java.util.TreeMap;
+
+class EmpDetails implements Comparable{
+	int empid; String empname;
+	public EmpDetails(int empid, String empname) {
+	this.empid=empid;
+	this.empname=empname;
+	}
+	public int compareTo(EmpDetails e)
+	{
+		if (empid == e.empid;)
+		{
+			
+		}
+	}
+}
+public class TreeMapExample {
+	
+public static void main(String[] args) {
+	TreeMap<EmpDetails> treemap = new TreeMap<EmpDetails>();
+}
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91144" started-at="2017-11-15T12:07:09Z" finished-at="2017-11-15T12:08:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91144" started-at="2017-11-15T12:07:09Z" finished-at="2017-11-15T12:08:40Z">
+      <class name="goodp.Goodp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="setUp" is-config="true" duration-ms="16473" started-at="2017-11-15T04:07:09Z" finished-at="2017-11-15T04:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearchTest(java.lang.String, java.lang.String)[pri:0, instance:goodp.Goodp@4520ebad]" name="googleSearchTest" duration-ms="2905" started-at="2017-11-15T04:07:25Z" data-provider="keyData" finished-at="2017-11-15T04:07:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="clearUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="clearUp" is-config="true" duration-ms="42" started-at="2017-11-15T04:07:28Z" finished-at="2017-11-15T04:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="setUp" is-config="true" duration-ms="14556" started-at="2017-11-15T04:07:28Z" finished-at="2017-11-15T04:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearchTest(java.lang.String, java.lang.String)[pri:0, instance:goodp.Goodp@4520ebad]" name="googleSearchTest" duration-ms="3431" started-at="2017-11-15T04:07:43Z" data-provider="keyData" finished-at="2017-11-15T04:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="clearUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="clearUp" is-config="true" duration-ms="49" started-at="2017-11-15T04:07:46Z" finished-at="2017-11-15T04:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="setUp" is-config="true" duration-ms="15397" started-at="2017-11-15T04:07:46Z" finished-at="2017-11-15T04:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearchTest(java.lang.String, java.lang.String)[pri:0, instance:goodp.Goodp@4520ebad]" name="googleSearchTest" duration-ms="1061" started-at="2017-11-15T04:08:02Z" data-provider="keyData" finished-at="2017-11-15T04:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="clearUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="clearUp" is-config="true" duration-ms="73" started-at="2017-11-15T04:08:03Z" finished-at="2017-11-15T04:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="setUp" is-config="true" duration-ms="15228" started-at="2017-11-15T04:08:03Z" finished-at="2017-11-15T04:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearchTest(java.lang.String, java.lang.String)[pri:0, instance:goodp.Goodp@4520ebad]" name="googleSearchTest" duration-ms="3106" started-at="2017-11-15T04:08:18Z" data-provider="keyData" finished-at="2017-11-15T04:08:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="clearUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="clearUp" is-config="true" duration-ms="32" started-at="2017-11-15T04:08:21Z" finished-at="2017-11-15T04:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="setUp" is-config="true" duration-ms="15016" started-at="2017-11-15T04:08:21Z" finished-at="2017-11-15T04:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearchTest(java.lang.String, java.lang.String)[pri:0, instance:goodp.Goodp@4520ebad]" name="googleSearchTest" duration-ms="3281" started-at="2017-11-15T04:08:36Z" data-provider="keyData" finished-at="2017-11-15T04:08:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="clearUp()[pri:0, instance:goodp.Goodp@4520ebad]" name="clearUp" is-config="true" duration-ms="36" started-at="2017-11-15T04:08:40Z" finished-at="2017-11-15T04:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearUp -->
+      </class> <!-- goodp.Goodp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

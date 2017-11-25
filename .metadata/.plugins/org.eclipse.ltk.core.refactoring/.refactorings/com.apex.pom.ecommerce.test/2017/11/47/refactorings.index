@@ -1,0 +1,4 @@
+1511205477875	Delete element
+1511205941188	Extract constant 'LOGGED_IN_TITLE'
+1511205974232	Extract constant 'LOGGED_IN_URL'
+1511206012186	Pull up members to 'LoginConstants'

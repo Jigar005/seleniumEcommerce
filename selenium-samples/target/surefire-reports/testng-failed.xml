@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.apex.test.EcommerceBaseTest"/>
+      <class name="com.apex.test.EcommerceLoginTest"/>
+      <class name="com.apex.test.EcommerceOrderTest"/>
+      <class name="com.apex.test.EcommerceRegistationTest"/>
+      <class name="com.apex.test.GoogleLoginTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.apex.test.EcommerceLoginTest">
+        <methods>
+          <include name="loginUnsuccess"/>
+          <include name="loginSuccess"/>
+        </methods>
+      </class> <!-- com.apex.test.EcommerceLoginTest -->
+      <class name="com.apex.test.EcommerceRegistationTest">
+        <methods>
+          <include name="getRegPage"/>
+        </methods>
+      </class> <!-- com.apex.test.EcommerceRegistationTest -->
+      <class name="com.apex.test.EcommerceOrderTest">
+        <methods>
+          <include name="login"/>
+          <include name="order"/>
+        </methods>
+      </class> <!-- com.apex.test.EcommerceOrderTest -->
+      <class name="com.apex.test.EcommerceBaseTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.apex.test.EcommerceBaseTest -->
+      <class name="com.apex.test.GoogleLoginTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="testWithSucessInput" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.apex.test.GoogleLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

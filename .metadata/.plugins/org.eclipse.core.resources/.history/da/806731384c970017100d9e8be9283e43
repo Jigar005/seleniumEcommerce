@@ -1,0 +1,27 @@
+package com.corejava.statment;
+
+public class SingleTon {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+final static class Sig{
+	
+	private Sig(){}
+	
+	private static Sig s;
+	
+	public static Sig getObject()
+	{
+		if (s == null)
+		{
+			return s = new Sig();
+		}
+		return (s);
+	}
+	
+}
+
+}

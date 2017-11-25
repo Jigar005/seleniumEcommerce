@@ -1,0 +1,15 @@
+package core;
+
+public class Str 
+{
+	public static void main (String [] args)
+	{
+		String sss = "Jigar";
+		System.out.println(sss);
+		StringBuffer ppp = new StringBuffer("bhai");
+		ppp.append("kumar");
+		
+		System.out.println(ppp);
+		
+	}
+}

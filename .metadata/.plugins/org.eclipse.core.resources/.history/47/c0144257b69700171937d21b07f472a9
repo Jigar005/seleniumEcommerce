@@ -1,0 +1,9 @@
+package com.corejava.statment;
+
+public class Stt {
+public static void main (String [] args){
+	String abcd = "ABCD EFGH IJKL MNOP QRST UVWX YZ"'
+	
+	System.out.println(abcd.length());
+}
+}

@@ -1,0 +1,16 @@
+package core;
+
+public class ToString 
+{
+	ToString()
+	{
+		
+	}
+	public static void main (String [] args)
+	{
+		ToString ng = new ToString();
+		System.out.println(ng);
+	}
+
+
+}

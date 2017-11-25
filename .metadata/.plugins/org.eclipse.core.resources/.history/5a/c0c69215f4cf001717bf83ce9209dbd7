@@ -1,0 +1,9 @@
+package com.apex.test;
+
+import org.testng.annotations.Test;
+
+public class ImplicitWait {
+  @Test
+  public void f() {
+  }
+}

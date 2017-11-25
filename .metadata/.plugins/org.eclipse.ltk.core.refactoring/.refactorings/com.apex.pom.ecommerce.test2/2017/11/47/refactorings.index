@@ -1,0 +1,15 @@
+1511191459337	Extract constant 'INBOX_URL'
+1511191482618	Pull up 'INBOX_URL' to 'InBoxConstants'
+1511196331031	Delete elements
+1511204311472	Extract constant 'LOGGED_IN_URL'
+1511204767076	Extract constant 'LOGGED_IN_TITLE'
+1511204805162	Pull up members to 'LoginConstants'
+1511207596040	Extract constant 'ORDER_CONFIRM_URL'
+1511209682775	Pull up 'ORDER_CONFIRM_URL' to 'OrderConstants'
+1511216494529	Extract constant 'CONTI_PAGE3'
+1511216617810	Pull up 'CONTI_PAGE3' to 'OrderConstants'
+1511475077856	Delete element
+1511475090788	Delete element
+1511477933027	Delete element
+1511479057304	Delete element
+1511479208396	Delete element

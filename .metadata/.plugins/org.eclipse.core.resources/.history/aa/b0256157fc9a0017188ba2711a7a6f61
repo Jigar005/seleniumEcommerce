@@ -1,0 +1,46 @@
+package core;
+
+
+/*Author <JIGAR MEHTA> Example of multithreading with modifier synchronized
+ * to avoid execution of other thread when one thread is running till its 
+ * completion. Remove modifier and see the difference in output and programme
+ * performance speed.
+ *  
+*/
+class Increment1
+{
+	synchronized public static void ThreadV11 (String v)
+	{ 
+		for(int i =1; i < 4; i ++)
+		{
+			System.out.println("Welcome"+v);
+			try{Thread.sleep(2000);}
+			catch(InterruptedException e)
+			{System.out.println(e.getStackTrace());}
+		}
+	}
+
+}
+
+
+
+class ThreadV11 extends Thread
+{
+	public void run(){Increment1.ThreadV11("Mr.  AAA");}
+}
+class ThreadV21 extends Thread
+{
+	public void run(){Increment1.ThreadV11("Mr.  BBB");}
+}
+class ThreadV31 extends Thread
+{
+	public void run(){Increment1.ThreadV11("Mrs. CCC");}
+}
+public class ThreadSynchronizer {
+	public static void main(String[] args) 
+	{	new ThreadV11().start();
+		new ThreadV21().start();
+		new ThreadV31().start();
+		
+	}
+}

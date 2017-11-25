@@ -1,0 +1,5 @@
+1510750017377	Extract constant 'SEARCH_BOX'
+1510750065521	Extract constant 'SEARCH_BUTTTON'
+1510750188203	Extract interface 'GoodpConstats'
+1510750232081	Delete element
+1510750472668	Pull up members to 'GoodpConstant'

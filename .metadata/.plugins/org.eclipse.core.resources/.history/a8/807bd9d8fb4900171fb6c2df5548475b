@@ -1,0 +1,29 @@
+package jayAmbe;
+import java.util.*;
+
+public class Temp
+{
+	public static void main (String[] args)
+	{
+		int[] a = {10,20,30};
+		try{
+		System.out.println(a[0]);}
+		catch(Exception e)
+		{e.printStackTrace();
+		System.out.println(a[1]);}
+		
+		String r = "Jigar";
+		try {System.out.println(r.charAt(5));}
+		catch (Exception p)
+		{p.printStackTrace();
+		System.out.println(p.getMessage());
+		System.out.println(p.toString());
+			
+		}
+		
+		
+	}
+
+
+}
+class Per{}

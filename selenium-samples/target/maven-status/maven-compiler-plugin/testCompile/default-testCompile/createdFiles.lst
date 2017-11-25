@@ -1,0 +1,4 @@
+com\apex\test\EcommerceRegistationTest.class
+com\apex\test\EcommerceLoginTest.class
+com\apex\test\EcommerceBaseTest.class
+com\apex\test\GoogleLoginTest.class

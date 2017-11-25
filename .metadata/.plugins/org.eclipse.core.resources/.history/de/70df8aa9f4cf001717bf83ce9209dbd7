@@ -1,0 +1,12 @@
+package com.apex.test;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class ImplicitWait {
+  @Test
+  public void f() {
+	  WebDriver driver = new FirefoxDriver();
+	  
+  }
+}

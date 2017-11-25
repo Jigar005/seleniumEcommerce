@@ -1,0 +1,20 @@
+package core;
+
+public class EmpToString {
+	String ename; int empid; double esal; 
+	
+	EmpToString(String ename, int empid, double esal)
+	{	this.ename = ename;
+		this.empid = empid;
+		this.esal = esal;
+		}
+	public static void main (String [] args)
+	{
+		EmpToString ng1 = new EmpToString("aaa",111,10000);
+		EmpToString ng1 = new EmpToString("bbb",222,20000);
+		EmpToString ng1 = new EmpToString("ccc",333,30000);
+		EmpToString ng1 = new EmpToString("ddd",444,40000);
+		EmpToString ng1 = new EmpToString("fff",555,50000);
+		
+	}
+}

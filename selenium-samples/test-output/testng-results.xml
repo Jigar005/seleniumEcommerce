@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21150" started-at="2017-11-23T20:18:09Z" finished-at="2017-11-23T20:18:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21150" started-at="2017-11-23T20:18:09Z" finished-at="2017-11-23T20:18:30Z">
+      <class name="com.apex.test.ExplicitWait">
+        <test-method status="PASS" signature="testExplicitWait()[pri:0, instance:com.apex.test.ExplicitWait@2a2d45ba]" name="testExplicitWait" duration-ms="21088" started-at="2017-11-23T12:18:09Z" finished-at="2017-11-23T12:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExplicitWait -->
+      </class> <!-- com.apex.test.ExplicitWait -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
