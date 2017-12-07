@@ -1,0 +1,17 @@
+package com.apex.customer.service.test;
+
+import com.apex.customer.service.core.HttpUtil;
+
+public class CustomerServiceTest_Delete implements CustomerServiceConstants{
+
+@Test
+public void customerServiceTest_Delete ()
+{
+	HttpUtil.sendAndReceiveMsgWithDeleteRequest(SERVICE_URL);
+	
+}
+
+	
+	
+	
+}

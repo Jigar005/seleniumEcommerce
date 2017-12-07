@@ -1,0 +1,5 @@
+package com.apex.customer.service.test;
+
+public class CustomerServiceTest_Post extends HttpUtil implements CustomerServicePostConstants{
+
+}

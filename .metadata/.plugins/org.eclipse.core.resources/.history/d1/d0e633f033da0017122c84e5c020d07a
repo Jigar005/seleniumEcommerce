@@ -1,0 +1,29 @@
+package come.reqres.rest.api.test;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
+
+import come.reqres.rest.api.base.TestBase;
+import come.reqres.rest.api.client.RestClient;
+
+public class GetApiTest extends RestClient{
+  
+@BeforeMethod
+public void setUp()
+{
+	TestBase testBase = new TestBase();
+	testBase.prop.getProperty("URL");
+	
+	testBase.prop.getProperty("serviceURL")
+	
+}
+	
+	
+	
+	
+	@Test
+  public void f() {
+  }
+}

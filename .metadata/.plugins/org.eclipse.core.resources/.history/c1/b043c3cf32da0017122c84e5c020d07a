@@ -1,0 +1,9 @@
+package come.reqres.rest.api.test;
+
+import org.testng.annotations.Test;
+
+public class GetApiTest {
+  @Test
+  public void f() {
+  }
+}

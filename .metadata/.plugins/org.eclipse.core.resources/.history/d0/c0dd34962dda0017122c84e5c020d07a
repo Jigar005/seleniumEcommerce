@@ -1,0 +1,17 @@
+package come.reqres.rest.api.client;
+
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+
+public class RestClient {
+	public void restClientGet(String url)
+	{
+		 CloseableHttpClient httpclient = HttpClients.createDefault();
+		 HttpGet httpget = new HttpGet(url);
+		 CloseableHttpResponse response =  httpclient.execute(httpget);
+		 
+	}
+
+}

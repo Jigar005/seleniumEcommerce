@@ -1,0 +1,21 @@
+package com.apex.customer.service.test;
+
+import java.io.StringWriter;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+import com.apex.customer.service.core.JSONParserUtil;
+import com.apex.customer.service.entity.Customer;
+
+public class ParserClient {
+
+	public static void main (String [] args){
+		Customer customer = new Customer(10101,"MM","LL","KK","JJ");
+		}
+	public static void toJson(Customer customer)
+	{
+		String jsonInMessage = JSONParserUtil.getcustomerJSONMessage(customer);
+	}
+}

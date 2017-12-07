@@ -1,0 +1,24 @@
+package com.apex.customer.service.test;
+
+import java.io.StringWriter;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+import com.apex.customer.service.entity.Customer;
+
+public class XMLParserClient {
+
+	public static String javaObjToXml() throws JAXBException {
+		Customer customer = new Customer(5000, "SI", "MON", "Rm st", "Fremont");
+		JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
+		Marshaller marshaller = jaxbContext.createMarshaller();
+		StringWriter writer = new StringWriter();
+		marshaller.marshal(customer, writer);
+		System.out.println(writer);
+		String xmlString = writer.toString();
+		return xmlString;
+	}
+
+}

@@ -1,0 +1,5 @@
+package come.reqres.rest.api.client;
+
+public class RestClient {
+
+}

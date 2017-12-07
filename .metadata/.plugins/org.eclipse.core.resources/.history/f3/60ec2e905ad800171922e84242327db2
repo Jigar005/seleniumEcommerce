@@ -1,0 +1,18 @@
+package com.apex.soap.test;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
+
+public class Chiti {
+
+	public static void main(String[] args) throws Exception, Exception {
+	String url = "http://www.thomas-bayer.com/sqlrest/CUSTOMER/10";
+	
+	HttpClient client = HttpClientBuilder.create().build();
+	HttpGet requestMessage = new HttpGet(url);
+	
+	HttpResponse response = new HttpsResponse(requestMessage);
+	
+	}
+}

@@ -1,0 +1,7 @@
+1512345400475	Extract method 'sendAndReceiveMsgWithGetRequest'
+1512345830482	Extract method 'getResposeString'
+1512416187966	Rename type 'CustomerServiceTest_NG'
+1512530488018	Delete element
+1512534653783	Extract constant 'SERVICE_URL'
+1512534703970	Pull up 'SERVICE_URL' to 'CustomerServiceConstants'
+1512614286677	Rename type 'XMLParserClient'

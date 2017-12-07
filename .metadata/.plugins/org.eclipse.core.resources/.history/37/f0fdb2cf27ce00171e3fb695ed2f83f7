@@ -1,7 +1,0 @@
-package com.apex.pom.ecommerce.test.Inbox;
-
-import com.apex.pom.ecommerce.test.core.EcommerceBasePage;
-
-public class InboxPage extends EcommerceBasePage implements InboxConstants {
-
-}

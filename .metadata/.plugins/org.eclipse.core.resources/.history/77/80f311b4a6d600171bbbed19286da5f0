@@ -1,0 +1,15 @@
+package com.apex.soap.test;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
+
+public class Ttt {
+	public static void main (String [] args)
+	{
+		HttpClient client = HttpClientBuilder.create().build();//creatin a HttpClient connection socket
+		HttpGet get = new HttpGet();
+		
+	}
+
+}

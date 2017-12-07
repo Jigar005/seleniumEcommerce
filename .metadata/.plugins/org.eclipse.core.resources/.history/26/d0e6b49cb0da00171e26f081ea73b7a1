@@ -1,0 +1,5 @@
+package com.apex.customer.service.test;
+
+public interface CustomerServicePostConstants {
+
+}

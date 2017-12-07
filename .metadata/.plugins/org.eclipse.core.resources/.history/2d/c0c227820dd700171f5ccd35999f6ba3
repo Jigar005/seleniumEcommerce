@@ -1,0 +1,17 @@
+package com.apex.soap.test;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
+
+public class Hyy {
+	public static void main(String[] args) {
+		String url = "";
+		HttpClient client = HttpClientBuilder.create().build();
+		HttpGet requestMessage = new HttpGet(url);
+		
+		
+	}
+	
+
+}

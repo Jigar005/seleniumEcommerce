@@ -1,0 +1,17 @@
+package com.apex.customer.service.core;
+
+import com.apex.customer.service.entity.Customer;
+
+public class JSONParserUtil {
+
+	public String getcustomerJSONMessage(Customer customer) {
+		Gson gson = new Gson();
+		String jsonInString = gson.toJson(customer);
+		return jsonInString;
+		}
+
+	public Customer getCustomerStringMessage(String jsonString) {
+		return null;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;com.apex.soap.test&apos;&#x0D;&#x0A;- Original project: &apos;com.apex.soap.test&apos;&#x0D;&#x0A;- Original element: &apos;com.apex.soap.test/src/main/java/com.apex.soap.test&apos;" description="Delete element" element1="/src\/main\/java&lt;com.apex.soap.test" element2="/src\/main\/java&lt;com.apex.soap" element3="/src\/main\/java&lt;com.apex" element4="/src\/main\/java&lt;com" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1512019620868" subPackages="false" version="1.0"/>
+</session>

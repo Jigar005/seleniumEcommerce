@@ -1,0 +1,28 @@
+package com.apex.customer.service.core;
+
+import java.io.StringWriter;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+import com.apex.customer.service.entity.Customer;
+
+public class XMLParserUtil {
+	public static String getCustomerMessage(Customer customer) throws JAXBException
+	{
+		JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
+		Marshaller marshaller = jaxbContext.createMarshaller();
+		marshaller.setProperty(Marshaller.JAXB_ENCODING, true);
+
+		StringWriter writer = new StringWriter();
+		marshaller.marshal(customer, writer);
+		System.out.println(writer);
+		String requestMessage = writer.toString();
+		return requestMessage;
+	
+		
+		
+	}
+
+}
