@@ -16,12 +16,14 @@ package core;
 //}
 */
 public class AnonymousClassThread {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Thread t1 = new Thread()
-				{public void run (){System.out.println("my thread");} };
+				{public void run (){System.out.println("my thread"); } };
 // using above process, we can decrease lenghth of code and no need to create
 // extra class
+				t1.sleep(5000);
 				t1.start();
+				
 		System.out.println("Main Thread");
 		System.out.println("Main Thread");
 		System.out.println("Main Thread");

@@ -1,5 +1,6 @@
 package com.apex.customer.service.test;
 
+import java.io.FileNotFoundException;
 import java.io.StringWriter;
 
 import javax.xml.bind.JAXBContext;
@@ -9,29 +10,37 @@ import javax.xml.bind.Marshaller;
 import com.apex.customer.service.core.JSONParserUtil;
 import com.apex.customer.service.core.XMLParserUtil;
 import com.apex.customer.service.entity.Customer;
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonSyntaxException;
 
 public class ParserClient {
 
 	public static void main (String [] args) throws JAXBException{
 		Customer customer = new Customer(10101,"MM","LL","KK","JJ");
-		toJson(customer);
-		toXML(customer);
+		//toJson(customer);
+		//toXML(customer);
+		
 		}
+	//Java class object to JSON Object
 	public static void toJson(Customer customer)
 	{
 		String jsonInMessage = JSONParserUtil.getcustomerJSONMessage(customer);
 		System.out.println(jsonInMessage);
 	}
-	public static void toJsonString (String jsonString)
+	//JSON Object to Java Class Object 
+	public static void toJsonString (String jsonString) throws JsonSyntaxException, JsonIOException, FileNotFoundException
 	{
 		Customer customer = JSONParserUtil.getCustomerStringMessage(jsonString);
 		System.out.println(customer);
 	}
+	
+	//Java class object to XML Object
 	public static void toXML (Customer customer) throws JAXBException
 	{
 		String xmlInString = XMLParserUtil.getCustomerXMLMessage(customer);
 		System.out.println(xmlInString);
 	}
+	//XML Object to Java Class Object 
 	public static void toXMLString (String xmlString) throws JAXBException
 	{
 		Customer customer = XMLParserUtil.getCustomerStringMessage(xmlString);

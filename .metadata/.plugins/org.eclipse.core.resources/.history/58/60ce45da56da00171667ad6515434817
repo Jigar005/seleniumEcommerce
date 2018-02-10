@@ -1,7 +1,0 @@
-package com.apex.customer.service.entity;
-
-public class Customer {
-public static void main(String[] args) {
-	
-}
-}

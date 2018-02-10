@@ -1,8 +1,0 @@
-package com.apex.customer.service.test;
-
-import com.apex.customer.service.core.HttpUtil;
-
-public class CustomerServiceTest_Post implements CustomerServiceConstants{
-	
-
-}

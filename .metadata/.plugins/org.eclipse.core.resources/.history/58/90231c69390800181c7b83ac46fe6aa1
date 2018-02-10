@@ -1,0 +1,8 @@
+package com.apex.test;
+import org.testng.annotations.Test;
+
+public class Temp {
+	@Test
+	
+
+}

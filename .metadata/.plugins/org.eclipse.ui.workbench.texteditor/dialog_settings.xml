@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="html/body/table/tbody/tr[1]/td/div/ul/li[7]/a" key="selection"/>
+		<item value="Abhi" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="OlympicMedals"/>
 			<item value="html/body/table/tbody/tr[1]/td/div/ul/li[7]/a"/>
 			<item value="public "/>
 			<item value="WebDriver"/>
@@ -19,9 +20,9 @@
 			<item value="private"/>
 			<item value="dvr"/>
 			<item value="package com.corejava.statment;"/>
-			<item value="package core;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Abhi"/>
 			<item value=" "/>
 			<item value="WebElement"/>
 			<item value="public"/>

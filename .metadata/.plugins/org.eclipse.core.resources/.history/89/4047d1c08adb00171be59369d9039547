@@ -1,0 +1,40 @@
+package com.apex.customer.service.test;
+
+import java.io.StringWriter;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+import com.apex.customer.service.core.JSONParserUtil;
+import com.apex.customer.service.core.XMLParserUtil;
+import com.apex.customer.service.entity.Customer;
+
+public class ParserClient {
+
+	public static void main (String [] args) throws JAXBException{
+		Customer customer = new Customer(10101,"MM","LL","KK","JJ");
+		toJson(customer);
+		toXML(customer);
+		}
+	public static void toJson(Customer customer)
+	{
+		String jsonInMessage = JSONParserUtil.getcustomerJSONMessage(customer);
+		System.out.println(jsonInMessage);
+	}
+	public static void toJsonString (String jsonString)
+	{
+		Customer customer = JSONParserUtil.getCustomerStringMessage(jsonString);
+		System.out.println(customer);
+	}
+	public static void toXML (Customer customer) throws JAXBException
+	{
+		String xmlInString = XMLParserUtil.getCustomerXMLMessage(customer);
+		System.out.println(xmlInString);
+	}
+	public static void toXMLString (String xmlString) throws JAXBException
+	{
+		Customer customer = XMLParserUtil.getCustomerStringMessage(xmlString);
+		System.out.println(customer);
+	}
+}

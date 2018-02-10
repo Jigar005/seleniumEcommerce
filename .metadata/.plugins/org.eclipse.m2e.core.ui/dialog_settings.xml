@@ -72,6 +72,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\HP\Maven"/>
 			<item value="C:\cDownload\Ref_Material\seleniumSamples\PageObjectModel"/>
 			<item value="C:\cDownload\Ref_Material\seleniumSamples"/>
 		</list>

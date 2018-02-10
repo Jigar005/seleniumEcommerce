@@ -1,0 +1,24 @@
+package core;
+
+import java.util.HashSet;
+
+public class SetDuplicateElements {
+public static void main(String[] args) {
+	int[] numbers= {1,2,2,3,3,4,5};
+	
+	HashSet<Integer> hashset= new HashSet<Integer>();
+	for (int iteration : numbers)
+	{
+		if(!hashset.add(iteration))
+				{
+			System.out.println("Duplicate Elements are====>"+iteration);
+				}
+	}
+	int[] numbers1= {1,2,2,3,3,4,5};
+	for (int iteration2 : numbers)
+	if(hashset.add(iteration2))
+	{
+		System.out.println("Distinct Elements are===>"+iteration2);
+	}
+}
+}

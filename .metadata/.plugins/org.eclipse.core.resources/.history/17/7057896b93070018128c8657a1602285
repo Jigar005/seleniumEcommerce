@@ -1,0 +1,8 @@
+package core;
+
+public class SetDuplicateElements {
+public static void main(String[] args) {
+	int[] numbers= {1,2,2,3,3,4,5};
+	
+}
+}

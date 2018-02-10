@@ -47,7 +47,7 @@ class EcompNu implements Comparator<Eemp>
  {
 	 public static void main (String [] args)
 	 {
-		 TreeSet<Eemp> sst = new TreeSet<Eemp>(new Ecomp());
+		 TreeSet<Eemp> sst = new TreeSet<Eemp>(new EcompNu());
 		 sst.add(new Eemp("A", 500));
 		 sst.add(new Eemp("B", 400));
 		 sst.add(new Eemp("C", 300));

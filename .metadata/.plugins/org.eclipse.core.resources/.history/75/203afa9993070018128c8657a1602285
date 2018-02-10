@@ -1,0 +1,19 @@
+package core;
+
+import java.util.HashSet;
+
+public class SetDuplicateElements {
+public static void main(String[] args) {
+	int[] numbers= {1,2,2,3,3,4,5};
+	
+	HashSet<Integer> hashset= new HashSet();
+	for (int iteration : numbers)
+	{
+		if(!hashset.add(iteration))
+				{
+			System.out.println(iteration);
+				}
+	}
+	
+}
+}

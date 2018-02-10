@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.firefox.NotConnectedException"/>
-<fullyQualifiedTypeName name="com.apex.test.BaseEcommerce"/>
-<fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
-<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By.ByCssSelector"/>
-<fullyQualifiedTypeName name="jxl.read.biff.File"/>
-<fullyQualifiedTypeName name="jxl.Workbook"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="jxl.Sheet"/>
-<fullyQualifiedTypeName name="jxl.Cell"/>
-<fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
-<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
-<fullyQualifiedTypeName name="com.apex.ecommerce.test.EcommerceBasePage"/>
-<fullyQualifiedTypeName name="com.apex.test.core.ApexBasePage"/>
-<fullyQualifiedTypeName name="com.apex.test.core.JxlUtility"/>
 <fullyQualifiedTypeName name="com.apex.pom.ecommerce.test.Registration.Registration"/>
 <fullyQualifiedTypeName name="com.apex.pom.ecommerce.test.Order.OrderConstants"/>
 <fullyQualifiedTypeName name="com.apex.pom.ecommerce.test.login.LoginConstants"/>
@@ -35,10 +19,7 @@
 <fullyQualifiedTypeName name="com.apex.pom.ecommerce.test.Inbox.InboxConstants"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="com.google.common.collect.Table.Cell"/>
 <fullyQualifiedTypeName name="org.apache.http.client.ClientProtocolException"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -60,4 +41,23 @@
 <fullyQualifiedTypeName name="com.apex.customer.service.core.XMLParserUtil"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessorType"/>
+<fullyQualifiedTypeName name="core.SortingMedalWise"/>
+<fullyQualifiedTypeName name="core.CountryMedals1"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="core.Medal"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="core.CountryMedals"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="org.testng.IAnnotationTransformer"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

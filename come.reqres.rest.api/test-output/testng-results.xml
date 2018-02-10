@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3532" started-at="2017-12-06T03:35:13Z" finished-at="2017-12-06T03:35:16Z">
+  <suite name="Default suite" duration-ms="3862" started-at="2018-01-07T02:36:49Z" finished-at="2018-01-07T02:36:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3532" started-at="2017-12-06T03:35:13Z" finished-at="2017-12-06T03:35:16Z">
+    <test name="Default test" duration-ms="3862" started-at="2018-01-07T02:36:49Z" finished-at="2018-01-07T02:36:53Z">
       <class name="come.reqres.rest.api.test.GetApiTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:come.reqres.rest.api.test.GetApiTest@51565ec2]" name="setUp" is-config="true" duration-ms="42" started-at="2017-12-05T19:35:13Z" finished-at="2017-12-05T19:35:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:come.reqres.rest.api.test.GetApiTest@51565ec2]" name="setUp" is-config="true" duration-ms="32" started-at="2018-01-06T18:36:49Z" finished-at="2018-01-06T18:36:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:come.reqres.rest.api.test.GetApiTest@51565ec2]" name="f" duration-ms="3394" started-at="2017-12-05T19:35:13Z" finished-at="2017-12-05T19:35:16Z">
+        <test-method status="PASS" signature="getAPITestWithoutHeaders()[pri:0, instance:come.reqres.rest.api.test.GetApiTest@51565ec2]" name="getAPITestWithoutHeaders" duration-ms="3768" started-at="2018-01-06T18:36:49Z" finished-at="2018-01-06T18:36:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- getAPITestWithoutHeaders -->
       </class> <!-- come.reqres.rest.api.test.GetApiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
